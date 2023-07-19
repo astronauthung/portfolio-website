@@ -1,0 +1,34 @@
+{
+  "name": "cv_website",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astronauthung/portfolio-website.git"
+  },
+  "keywords": [
+    "Phuc",
+    "Hung",
+    "Portfolio",
+    "Figma",
+    "Web",
+    "Design"
+  ],
+  "author": "Nguyen Phuc Hung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astronauthung/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/astronauthung/portfolio-website#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
