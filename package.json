@@ -2,9 +2,10 @@
   "name": "cv_website",
   "version": "1.0.0",
   "description": "My portfolio website",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "nodemon --inspect src/index.js",
+    "watchcss": "sass --embed-source-map --watch src/resources/scss:src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,9 +27,13 @@
   },
   "homepage": "https://github.com/astronauthung/portfolio-website#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "sass": "^1.64.0"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0",
     "nodemon": "^3.0.1"
   }
 }
